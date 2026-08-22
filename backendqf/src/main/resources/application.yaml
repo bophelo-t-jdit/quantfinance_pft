@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backendqf
+
+  datasource:
+    url: jdbc:postgresql://://
+    username: postgres.db-project-id
+    password: db_password
+    driver-class-name: org.postgresql.Driver
