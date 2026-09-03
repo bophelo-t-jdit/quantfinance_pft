@@ -1,5 +1,6 @@
 import SideBar from "../components/SideBar";
 import styles from "./dashboard.module.css";
+import Card from "../components/Card";
 
 
 function Dashboard() {
@@ -10,6 +11,8 @@ function Dashboard() {
                 <p className={styles.eyebrow}>July 2026</p>
                 <h1>Dashboard</h1>
                 <p className={styles.subtitle}>Personal Finance Overview</p>
+
+                <Card titleText={"Total Income"} amountOrRateText={0}/>
             </main>
         </div>
     );

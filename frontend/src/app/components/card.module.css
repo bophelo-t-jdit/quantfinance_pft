@@ -1,0 +1,20 @@
+.Card {
+	border: 1px black solid;
+	width: 200px;
+	height: 100px;
+	margin-top: 20px;
+}
+
+.Card #titleText {
+	margin-left: 15px;
+}
+
+.Card #amount {
+	margin-left: 15px;
+	font-size: 25px;
+	color: #27ff27;
+}
+
+.Card #subText {
+	margin-left: 15px;
+}
